@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Log start of script
 echo "Starting stop_app.sh script" >> /tmp/deploy.log
