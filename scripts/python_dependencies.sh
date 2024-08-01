@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-virtualenv /home/ubuntu/env
-source /home/ubuntu/env/bin/activate
-pip install -r /home/ubuntu/blogprojectdrf/requirements.txt
+virtualenv /home/ubuntu/venv
+source /home/ubuntu/venv/bin/activate
+pip install -r /home/ubuntu/peace_online/requirements.txt
