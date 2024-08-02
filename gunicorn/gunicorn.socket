@@ -1,6 +1,6 @@
 [Unit]
 Description=gunicorn socket
 [Socket]
-ListenStream=/run/gunicorn.sock
+ListenStream=/home/ubuntu/peace_online/peace_online/peace_online.sock
 [Install]
 WantedBy=sockets.target
