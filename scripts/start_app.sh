@@ -2,9 +2,9 @@
 
 sed -i 's/\[]/\["13.48.217.164"]/' /home/ubuntu/peace_online/peace_online/settings.py
 
-python3 manage.py migrate 
-python3 manage.py makemigrations     
-python3 manage.py collectstatic
+python manage.py migrate 
+python manage.py makemigrations     
+python manage.py collectstatic
 sudo service gunicorn restart
 sudo service nginx restart
 #sudo tail -f /var/log/nginx/error.log
