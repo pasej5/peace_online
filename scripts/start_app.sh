@@ -11,6 +11,8 @@ if [ ! -f "$DATABASE_PATH" ]; then
 fi
 
 chmod 664 "$DATABASE_PATH"  # Ensure the file is writable
+sudo chmod 664 /var/lib/peace_online/db.sqlite3
+
 
 # Apply migrations and collect static files
 python3 manage.py migrate
