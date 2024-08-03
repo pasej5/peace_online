@@ -104,7 +104,8 @@ WSGI_APPLICATION = 'peace_online.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join('/var/lib/peace_online', 'db.sqlite3'),
+
     }
 }
 
