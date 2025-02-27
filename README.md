@@ -14,7 +14,7 @@
 
 ## Description
 
-BULK BUYERS HAVEN is an innovative marketplace designed for bulk stocking from South Africa. The platform connects buyers and sellers across borders, with a specific focus on the Zimbabwean and South African markets. It provides a robust solution for bulk purchasing and efficient logistics management.
+Peace Online is an online marketplace designed to connect buyers and sellers, solving access issues to a wide variety of products. This project implements CRUD functionalities to manage product listings and transactions. Built with Django for the backend, Tailwind CSS for a responsive and modern frontend, and SQLite for data storage. It also integrates Django Authentication to provide secure user login and account management.
 
 ## Objective
 
